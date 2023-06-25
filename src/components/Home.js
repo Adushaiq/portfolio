@@ -54,7 +54,7 @@ export default function Home() {
                 ></img>
               </div>
             </div>
-            <p className="text-secondary text-lg ">
+            <p className="text-secondary  md:text-lg text-md ">
               Hi, I'm Adnan Shaikh. A passionate Mern-Stack Developer based in
               Pune, India. 📍
             </p>
