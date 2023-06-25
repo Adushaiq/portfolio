@@ -68,7 +68,7 @@ export default function Header() {
                 <img src={HamburgerMenu} alt="Menu" className="h-[16px]" />
               </button>
               {isMobileMenuOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-white">
+                <div className="fixed inset-0 flex items-center justify-center z-50 bg-white">
                   <img
                     src={CloseBtn}
                     onClick={toggleMobileMenu}
